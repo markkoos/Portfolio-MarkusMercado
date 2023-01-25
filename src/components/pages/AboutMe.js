@@ -12,7 +12,7 @@ export default function AboutMe() {
             Hi, there! I'm Markus, a recent graduate of the UC Irvine Coding Bootcamp where I received a certificate in Full Stack Web Development. 
             I have experience creating full-featured web applications from the grounud up, utilizing my experience in the MERN tech stack to create efficient, 
             scalable solutions. I'm looking to get a career started in web development/software engineering. Thank you for your consideration!
-            </p></center>
+            </p></center> 
         </div>
     )
 }
