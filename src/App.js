@@ -1,7 +1,7 @@
 import React from "react";
-import TestDiv from "./components/testDiv";
+import AboutMe from "./components/pages/AboutMe";
 
 export default function App() {
-  return <TestDiv />
+  return <AboutMe />
 }
 
