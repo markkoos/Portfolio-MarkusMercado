@@ -11,7 +11,7 @@ export default function NavBar({ pageChangeHandler }) {
                 </li>
 
                 <li className="nav-item">
-                <a href="projects" onClick={() => pageChangeHandler('Projects')}>Projects</a>
+                <a href="#projects" onClick={() => pageChangeHandler('Projects')}>Projects</a>
                 </li>
 
                 <li className="nav-item">

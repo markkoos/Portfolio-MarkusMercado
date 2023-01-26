@@ -8,7 +8,7 @@ import NavBar from './NavBar';
 export default function Container() {
 
     // use state for the current page 
-    const [currentPage, setPage] = useState('Home');
+    const [currentPage, setPage] = useState('About Me');
 
     // checks the current value of currentPage and returns the matching component to be rendered
     const renderPage = () => {
