@@ -7,7 +7,7 @@ export default function NavBar({ pageChangeHandler }) {
             <ul className="navbar-nav">
 
                 <li className="nav-item">
-                <a href="#aboutme" onClick={() => pageChangeHandler('About Me')}>About Me</a>
+                <a href="#aboutme" onClick={() => pageChangeHandler('About Me')}>About</a>
                 </li>
 
                 <li className="nav-item">
@@ -19,7 +19,7 @@ export default function NavBar({ pageChangeHandler }) {
                 </li>
                 
                 <li className="nav-item">
-                <a href="#contactme" onClick={() => pageChangeHandler('Contact Me')}>Contact Me</a>
+                <a href="#contactme" onClick={() => pageChangeHandler('Contact Me')}>Contact</a>
                 </li>
 
             </ul>
