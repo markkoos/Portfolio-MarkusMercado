@@ -4,7 +4,7 @@ export default function NavBar({ pageChangeHandler }) {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <span class="navbar-brand">Markus Mercado</span>
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav">
 
                 <li className="nav-item">
                 <a href="#aboutme" onClick={() => pageChangeHandler('About Me')}>About Me</a>
