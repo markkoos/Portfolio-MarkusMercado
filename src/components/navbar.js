@@ -1,4 +1,5 @@
 import React from 'react';
+// hi
 
 export default function NavBar({ pageChangeHandler }) {
     return (
