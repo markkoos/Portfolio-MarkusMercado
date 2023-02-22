@@ -1,3 +1,5 @@
+/* -------------------NavBar styling------------------------- */
+
 .navbar-nav {
     margin-left: 67%;
     color: white;
@@ -22,6 +24,8 @@ a {
     font-size: 14px;
 }
 
+/* -------------------About Me page------------------------- */
+
 .aboutText {
     font-size: 20px;
     padding: 10px;
@@ -30,4 +34,15 @@ a {
 .markus {
     max-width: 25%;
     max-height: 20%;
+}
+
+/* -------------------Projects page------------------------- */
+
+.doggy {
+    max-width: 25%;
+    max-height: 20%;
+}
+
+.projectImg:hover {
+    opacity: 30%;
 }
