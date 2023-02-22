@@ -3,25 +3,24 @@ import AboutMe from './pages/AboutMe';
 import ContactMe from './pages/ContactMe';
 import Projects from './pages/Projects';
 import Resume from './pages/Resume';
-import NavBar from './NavBar';
 
-export default function Container() {
+export default function container() {
 
     // use state for the current page 
-    const [currentPage, setPage] = useState('About Me');
+    const [currentPage, setPage] = useState('Home');
 
     // checks the current value of currentPage and returns the matching component to be rendered
     const renderPage = () => {
-        if (currentPage === 'About Me') {
+        if (currentpage === 'About Me') {
             return <AboutMe />
         }
-        if (currentPage === 'Projects') {
+        if (currentpage === 'Projects') {
             return <Projects />
         }
-        if (currentPage === 'Resume') {
+        if (currentpage === 'Resume') {
             return <Resume />
         }
-        if (currentPage === 'Contact Me') {
+        if (currentpage === 'Contact Me') {
             return <ContactMe />
         }
     };
@@ -31,10 +30,4 @@ export default function Container() {
         setPage(page);
     };
 
-    return (
-        <div>
-            <NavBar pageChangeHandler={pageChangeHandler} />
-            {renderPage()}
-        </div>
-    )
 }
