@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function NavBar({ pageChangeHandler }) {
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <span class="navbar-brand">Markus Mercado</span>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+            <span className="navbar-brand">Markus Mercado</span>
             <ul className="navbar-nav mr-auto">
 
                 <li className="nav-item">
@@ -11,7 +11,7 @@ export default function NavBar({ pageChangeHandler }) {
                 </li>
 
                 <li className="nav-item">
-                <a href="projects" onClick={() => pageChangeHandler('Projects')}>Projects</a>
+                <a href="#projects" onClick={() => pageChangeHandler('Projects')}>Projects</a>
                 </li>
 
                 <li className="nav-item">
