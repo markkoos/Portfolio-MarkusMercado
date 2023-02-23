@@ -52,3 +52,13 @@ a {
 .projectTitle {
     text-decoration: underline;
 }
+
+/* -------------------Contact Me page------------------------- */
+
+.contactTitle {
+    text-decoration: underline;
+}
+
+.contactLink {
+    color: black;
+}
