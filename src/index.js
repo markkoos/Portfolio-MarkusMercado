@@ -6,6 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import style from "./styles/style.css";
 import reportWebVitals from './reportWebVitals';
 
+console.log(`using ${style}`);
+
 // render() method renders app component to the DOM
 ReactDOM.render(<App />,
   // renders App to the default root element
