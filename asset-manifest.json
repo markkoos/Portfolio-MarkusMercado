@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e7676124.css",
+    "main.js": "/static/js/main.d04f7c43.js",
+    "static/js/787.d8b86039.chunk.js": "/static/js/787.d8b86039.chunk.js",
+    "static/media/booksearch.png": "/static/media/booksearch.03592509d5a36f0ddb85.png",
+    "static/media/markus.jpg": "/static/media/markus.b3e367f18ecb0b25c301.jpg",
+    "static/media/doggydaycare.png": "/static/media/doggydaycare.175d566d25773fdb4182.png",
+    "index.html": "/index.html",
+    "main.e7676124.css.map": "/static/css/main.e7676124.css.map",
+    "main.d04f7c43.js.map": "/static/js/main.d04f7c43.js.map",
+    "787.d8b86039.chunk.js.map": "/static/js/787.d8b86039.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7676124.css",
+    "static/js/main.d04f7c43.js"
+  ]
+}
